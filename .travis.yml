@@ -1,0 +1,10 @@
+language: node_js
+node_js: node_js
+services: "-mongodb"
+deploy:
+  provider: heroku
+  api_key:
+    secure: dtZ1o6jhr1dAsrAQRtzqGNOup0lxg4yS/BqhQ8RLsLJClBx4EQClppNfdd93D65vru+mN4kc0qCbdYERCvFR5712pTdGtB6NlNLatvd+pOsO4RzhON9SlKuC6nirvwEwYA/y6mvZvF8uOm5s4bbMycF8PIU1G7xwCWwtk47A7V7pCpXteTCv55wxlZAKSrBdvrXKUJ9ABVgI2pnAYDWzTmXvy69gvPry5EaKc7wfBxXvIq8H02bR/+FJsLYha2eI97bwKtvLnggUM9J0/wVwEu+JU7vXY1kxALcjwQAPhUS1GM8eTmSLqj4jjGMEZJcmopa+9iewaZe8LvJCkckXfykUXQGpjWjmqdV6GrzCEuXKd1/eYfsIh+GRfgeUERmH9MMH5qkrSwH6ELw7WzAvW3w3Js4S5b4VioiwcsWULcGFS425au0vbu8hmFaKz1jskD/6omdroA+ImwV39OqW7KzYUyDqDuRcgY7hairUX9vG8nnC23mZrc74u2X0b/Sf5a9a0IHrRDi7R/m9nIfVUfo0G+L23lNmk1N+tknfhEfAhJO1aGddlBM2kwxbCY3UID+qoXbEx11NE7aT6Zbuz5qZnlj5oHs9ZJrQfZKhISQDeo5jhUGP9oWcX/G2p3afkr9PH77792019vwP0zZnaySCuAVQJ7/wu5p+++gIFdM=
+  app: shrouded-fortress-18265
+  on:
+    repo: rposner16/written-api
